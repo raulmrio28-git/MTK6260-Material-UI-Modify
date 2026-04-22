@@ -146,7 +146,7 @@ FM_RADIO_I2S_PATH = FALSE
   # Switch-ability:
   #   Non-switchable
 
-FM_RADIO_RDS_SUPPORT = FALSE
+FM_RADIO_RDS_SUPPORT = TRUE
   # Description:
   #   To enable or disable FM RDS function.It has no impact on the chips which don't support RDS and some other scenarios this feature is useless(Like FTE MMI).
   # Option Values:
@@ -275,7 +275,7 @@ SIM_SWTICH_CONTROLLER_MT6302 = FALSE
   #   N/A
 
 # ------------------------------ LCD
-LCD_MODULE = HEXING60A_MATERIALUI_11B_LCM
+LCD_MODULE = XRD_240320_280_4SPI_LCM
   # Description:
   #   In order to select the folders of LCD module of specified project, please set the option as the folder name in custom folder.
   # Option Values:
@@ -1522,7 +1522,7 @@ INTERGRAFX_SUPPORT = NONE
   # Switch-ability:
   #   [Any] -> [Any]
 
-MELODY_BUFFER_LEN = 20480
+MELODY_BUFFER_LEN = 81920
   # Description:
   #   Defining buffer midi/imelody files to provide different number of notes supported
   # Option Values:
@@ -1896,7 +1896,7 @@ CAMCORDER_ZERO_SHUTTER_DELAY_SUPPORT = FALSE
   #   FALSE -> TRUE
   #   TRUE -> FALSE
 
-DUAL_CAMERA_SUPPORT = TRUE
+DUAL_CAMERA_SUPPORT = FALSE
   # Description:
   #   Enable the feature of dual camera support for end user
   # Option Values:
@@ -1905,7 +1905,7 @@ DUAL_CAMERA_SUPPORT = TRUE
   # Switch-ability:
   #   TRUE -> FALSE
 
-CMOS_SENSOR = OV7670
+CMOS_SENSOR = OV7675
   # Description:
   #   Set sensor module of main camera
   # Option Values:
@@ -1944,7 +1944,7 @@ SENSOR_TYPE = YUV
   # Switch-ability:
   #   Non-switchable
 
-CMOS_SENSOR_SUB = OV7675
+CMOS_SENSOR_SUB = NONE
   # Description:
   #   Set sensor module of sub camera
   # Option Values:
@@ -5240,7 +5240,7 @@ CAMCORDER_VRT_MEM_CAPTURE = FALSE
   # Switch-ability:
   #   N/A
 
-FORCE_MEMORY_DUMP = FASLE
+FORCE_MEMORY_DUMP = FALSE
   # Description:
   #   force memory dump in production release to prevent from silent reboot
   # Option Values:
@@ -5474,7 +5474,7 @@ RELEASE_INPUT_METHODS_SRC =		# MMI_ZI, MMI_T9, MMI_ITAP,
 # Consistent Feature Options
 # *************************************************************************
 COM_DEFS_FOR_MT6260RF_CUSTOM  = MT6260RF_RF MT6260RF_CUSTOM
-COM_DEFS_FOR_HEXING60A_MATERIALUI_11B_LCM = COLOR_LCD HEXING60A_MATERIALUI_11B_LCM TFT_MAINLCD
+COM_DEFS_FOR_XRD_240320_280_4SPI_LCM = COLOR_LCD XRD_240320_280_4SPI_LCM TFT_MAINLCD
 # *************************************************************************
 # Include MODEM.mak
 # *************************************************************************
