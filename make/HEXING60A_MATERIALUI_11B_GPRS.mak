@@ -32,6 +32,17 @@
 #  SOFTWARE AT ISSUE.
 #
 # *************************************************************************
+#20260422
+MATERIAL_UI_THEME = TRUE
+  # Description:
+  #   To enable Material UI theme
+  # Option Values:
+  #   TRUE: Enable this feature
+  #   FALSE: Disable this feature
+  # Switch-ability:
+  #   [Any] -> [Any]
+
+#20260422
 
 # Generated at 2013-02-25 17:40:52
 # ------------------------------ ARM

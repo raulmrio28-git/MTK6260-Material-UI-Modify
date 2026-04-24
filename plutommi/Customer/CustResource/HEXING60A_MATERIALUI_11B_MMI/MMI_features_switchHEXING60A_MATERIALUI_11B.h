@@ -5830,7 +5830,7 @@
   Option: [__OFF__, 1~16]
   Reference: DD_APP_PhoneSetup.doc
 */
-#define CFG_MMI_WALLPAPER_NUM	(1)
+#define CFG_MMI_WALLPAPER_NUM	(5)
 
 /*
   Description: enable time zone update date time
