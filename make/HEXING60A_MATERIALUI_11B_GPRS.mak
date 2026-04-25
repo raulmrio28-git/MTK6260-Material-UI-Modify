@@ -44,6 +44,25 @@ MATERIAL_UI_THEME = TRUE
 
 #20260422
 
+#20260425
+FACTORY_TEST_SOUND_CHANGE = TRUE
+  # Description:
+  #   To enable factory test sound change
+  # Option Values:
+  #   TRUE: Enable this feature
+  #   FALSE: Disable this feature
+  # Switch-ability:
+  #   [Any] -> [Any]
+
+FACTORY_TEST_SOUND_CN = FALSE
+  # Description:
+  #   仅对国内版本设置为TRUE
+  # Option Values:
+  #   TRUE: Enable this feature
+  #   FALSE: Disable this feature
+  # Switch-ability:
+  #   [Any] -> [Any]
+#20260425
 # Generated at 2013-02-25 17:40:52
 # ------------------------------ ARM
 

@@ -12251,3 +12251,16 @@ ifeq ($(strip $(MATERIAL_UI_THEME)),TRUE)
   COM_DEFS += __MATERIAL_UI_THEME_MODIFY_IDLE__
 endif
 #20260422
+
+#-----------------------------------------------------------------------------------------
+# Modify for FactoryTest Begin 
+#-----------------------------------------------------------------------------------------
+#20260425
+ifeq ($(strip $(FACTORY_TEST_SOUND_CHANGE)),TRUE)
+  COM_DEFS += __FACTORY_TEST_SOUND_CHANGE__
+endif
+
+ifeq ($(strip $(FACTORY_TEST_SOUND_CN)),TRUE)
+  COM_DEFS += __FACTORY_TEST_SOUND_CN__
+endif
+#20260425

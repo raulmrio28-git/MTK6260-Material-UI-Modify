@@ -289,6 +289,15 @@ ifndef MATERIAL_UI_THEME
 endif
 #20260422
 
+#20260425
+ifndef FACTORY_TEST_SOUND_CHANGE
+  FACTORY_TEST_SOUND_CHANGE := FALSE
+endif
+ifndef FACTORY_TEST_SOUND_CN
+  FACTORY_TEST_SOUND_CN := FALSE
+endif
+#20260425
+
 #########################################################
 # Replace alias modules. (for update/remake/scan/clean)
 #########################################################
