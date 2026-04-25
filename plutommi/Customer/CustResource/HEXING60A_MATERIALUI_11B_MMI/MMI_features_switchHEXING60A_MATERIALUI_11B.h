@@ -3902,7 +3902,7 @@
   Option: [__ON__, __OFF__, __AUTO__]
   Reference: DD_APP_CELLBROADCAST.doc
 */
-#define CFG_MMI_MESSAGES_CB_DISPLAY_IN_IDLE	(__ON__)
+#define CFG_MMI_MESSAGES_CB_DISPLAY_IN_IDLE	(__OFF__)
 
 /*
   Description: SMS COPY and MOVE function

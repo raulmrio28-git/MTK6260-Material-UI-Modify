@@ -12263,4 +12263,12 @@ endif
 ifeq ($(strip $(FACTORY_TEST_SOUND_CN)),TRUE)
   COM_DEFS += __FACTORY_TEST_SOUND_CN__
 endif
+
+#-----------------------------------------------------------------------------------------
+# Modify for MMI Begin 
+#-----------------------------------------------------------------------------------------
+ifeq ($(strip $(CB_PLAY_SOUND_PROMPT)),TRUE)
+  COM_DEFS += __CB_PLAY_SOUND_PROMPT__
+endif
+
 #20260425

@@ -417,12 +417,37 @@ const VIB_PATTERN_STRUCT vib_gpio_ptn4[] =
     {{VIB_LEVEL_0}, 0}
 };
 
+/* 20260425 */
+#ifdef __CB_PLAY_SOUND_PROMPT__
+const VIB_PATTERN_STRUCT vib_gpio_ptn_cb[] = 
+{
+    {{VIB_LEVEL_1}, 2000},   /* duration timer is zero to terminate it */
+    {{VIB_LEVEL_0}, 500},   /* duration timer is zero to terminate it */
+    {{VIB_LEVEL_1}, 1000},   /* duration timer is zero to terminate it */
+    {{VIB_LEVEL_0}, 500},  /* duration timer is zero to terminate it */
+    {{VIB_LEVEL_1}, 1000},   /* duration timer is zero to terminate it */
+    {{VIB_LEVEL_0}, 500},   /* duration timer is zero to terminate it */
+    {{VIB_LEVEL_1}, 2000},   /* duration timer is zero to terminate it */
+    {{VIB_LEVEL_0}, 500},   /* duration timer is zero to terminate it */
+    {{VIB_LEVEL_1}, 1000},   /* duration timer is zero to terminate it */
+    {{VIB_LEVEL_0}, 500},  /* duration timer is zero to terminate it */
+    {{VIB_LEVEL_1}, 1000},   /* duration timer is zero to terminate it */
+    {{VIB_LEVEL_0}, 0}      /* duration timer is zero to terminate it */
+};
+#endif
+/* 20260425*/
+
 const VIB_PATTERN_STRUCT *vib_gpio_patterns[] = 
 {
     vib_gpio_ptn1,
     vib_gpio_ptn2,
     vib_gpio_ptn3,
-    vib_gpio_ptn4
+/* 20260425 */
+    vib_gpio_ptn4,
+#ifdef __CB_PLAY_SOUND_PROMPT__
+    vib_gpio_ptn_cb
+#endif
+/* 20260425 */
 };
 
 

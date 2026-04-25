@@ -3137,7 +3137,7 @@
   Option: [__ON__, __OFF__, __AUTO__]
   Reference: DD_APP_PHONEBOOK.doc
 */
-#define CFG_MMI_PHB_STARTUP_COPY_SIM	(__OFF__)	//xb add 2016-09-27 ¹Ø±Õ¿ª»úµç»°²¾¸´ÖÆµÄÌáÐÑ
+#define CFG_MMI_PHB_STARTUP_COPY_SIM	(__OFF__)	//xb add 2016-09-27 ï¿½Ø±Õ¿ï¿½ï¿½ï¿½ï¿½ç»°ï¿½ï¿½ï¿½ï¿½ï¿½Æµï¿½ï¿½ï¿½ï¿½ï¿½
 
 /*
   Description: Allow sos number editable
@@ -3916,7 +3916,7 @@
   Option: [__ON__, __OFF__, __AUTO__]
   Reference: DD_APP_CELLBROADCAST.doc
 */
-#define CFG_MMI_MESSAGES_CB_DISPLAY_IN_IDLE	(__ON__)
+#define CFG_MMI_MESSAGES_CB_DISPLAY_IN_IDLE	(__OFF__)
 
 /*
   Description: SMS COPY and MOVE function
@@ -3937,7 +3937,7 @@
   Option: [__ON__, __OFF__, __AUTO__]
   Reference: DD_APP_CELLBROADCAST.doc
 */
-#define CFG_MMI_MESSAGES_TWO_CB_MODES_DISPLAY	(__OFF__)
+#define CFG_MMI_MESSAGES_TWO_CB_MODES_DISPLAY	(__ON__)
 
 /*
   Description: Long SMS support

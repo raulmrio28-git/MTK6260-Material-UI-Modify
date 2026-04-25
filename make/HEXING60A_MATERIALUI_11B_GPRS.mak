@@ -62,6 +62,15 @@ FACTORY_TEST_SOUND_CN = FALSE
   #   FALSE: Disable this feature
   # Switch-ability:
   #   [Any] -> [Any]
+
+CB_PLAY_SOUND_PROMPT = TRUE
+  # Description:
+  #   播放cb消息时播放声音
+  # Option Values:
+  #   TRUE: Enable this feature
+  #   FALSE: Disable this feature
+  # Switch-ability:
+  #   [Any] -> [Any]
 #20260425
 # Generated at 2013-02-25 17:40:52
 # ------------------------------ ARM

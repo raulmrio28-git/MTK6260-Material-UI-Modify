@@ -208,6 +208,9 @@
 
     <AUDIO id="AUD_ID_PROF_RING_END">"..\\\\..\\\\Customer\\\\AUDIO\\\\EmptyAudio.mp3"</AUDIO>
 /* 20260425 */
+#ifdef __CB_PLAY_SOUND_PROMPT__
+    <AUDIO id="AUD_ID_CB_ALERT" flag="MULTIBIN">"..\\\\..\\\\Customer\\\\AUDIO\\\cb_alert.mp3"</AUDIO>
+#endif
 #ifdef __FACTORY_TEST_SOUND_CHANGE__
 #ifdef __FACTORY_TEST_SOUND_CN__
     <AUDIO id="AUD_ID_FACTORYTEST_LOUD" flag="MULTIBIN">"..\\\\..\\\\Customer\\\\AUDIO\\\FactoryTest\\\\audiotest_cn.mp3"</AUDIO>

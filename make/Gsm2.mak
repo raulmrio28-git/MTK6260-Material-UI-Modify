@@ -296,6 +296,10 @@ endif
 ifndef FACTORY_TEST_SOUND_CN
   FACTORY_TEST_SOUND_CN := FALSE
 endif
+
+ifdef CB_PLAY_SOUND_PROMPT
+  CB_PLAY_SOUND_PROMPT := FALSE
+endif
 #20260425
 
 #########################################################

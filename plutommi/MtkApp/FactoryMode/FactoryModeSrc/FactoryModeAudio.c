@@ -2460,11 +2460,12 @@ void mmi_fm_setloud_spk(U8 flag,MMI_BOOL LoudSpkTestOn,U8 mode,U16 s)
     if (flag == 0)
     {
         /* play 1K tone */
-        TONE_SetOutputVolume(255, 0);
 /* 20260425 */
 #ifdef __FACTORY_TEST_SOUND_CHANGE__
+        Media_SetOutputVolume(255, 0);
         srv_prof_play_tone_with_id(SRV_PROF_TONE_FM, AUD_ID_FACTORYTEST_LOUD, SRV_PROF_RING_TYPE_REPEAT, NULL);
 #else 
+        TONE_SetOutputVolume(255, 0);
         mdi_audio_play_id(TONE_KEY_NORMAL, DEVICE_AUDIO_PLAY_INFINITE); 
 #endif
 /* 20260425 */      
